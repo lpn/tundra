@@ -179,6 +179,7 @@ Tundra can be obtained from the official GIT repository:
   ** Type `make` to build an optimized version
   ** Type `make CHECKED=yes` to build a debug version.
      Do this if you're hacking on the C++ core.
+  ** Type `make STATIC=yes` to build a statically linked version     
   ** Type `make install` to install Tundra into `/usr/local`
      (you can override the path with `PREFIX=/path`)
   ** Type `make uninstall` to uninstall Tundra
