@@ -24,6 +24,10 @@ CFLAGS += -g -D_DEBUG
 BUILDDIR := build.checked
 endif
 
+ifeq ($(STATIC), yes)
+LDFLAGS += -static-libgcc -static-libstdc++
+endif
+
 CROSSMINGW ?= no
 EXESUFFIX =
 
